@@ -26,11 +26,14 @@ H6 {
   font-family: 'Xanh Mono', monospace;
   font-size: 1.5rem;
 }
-#image {
-padding-left: 350px;}
+a {
+padding-left: 350px;
+text-align:
+
+}
 
 
-H3 {
+#Factsname {
 color: #EBCE63;
 text-align: center;
 font-size: 3rem;

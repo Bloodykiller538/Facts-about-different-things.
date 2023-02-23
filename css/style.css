@@ -17,6 +17,7 @@ H5 {
   Color: #E86D5D;
   padding: 40px;
   font-family: 'Xanh Mono', monospace;
+  text-align: center;
   font-size: 3rem;
 }
 a {
@@ -27,7 +28,7 @@ padding-left: 350px;
 H6 {
 color: #EBCE63;
 text-align: center;
-font-size: 3rem;
+font-size: 2rem;
 font-family: 'Xanh Mono', monospace;
 }
 

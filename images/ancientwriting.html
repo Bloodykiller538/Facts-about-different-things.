@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="referrer" content="origin-when-cross-origin">
+    <script>//<![CDATA[
+      var s = false;
+      function l() {
+        setTimeout(f, 10000);
+        if (document.referrer) {
+          try {
+            var pm = /(^|&|\?)px=([^&]*)(&|$)/i;
+            var px = window.location.href.match(pm);
+            var rs = document.referrer;
+            if (px != null) {
+              if (rs.match(pm))
+                rs = rs.replace(pm, "$1px=" + px[2] + "$3");
+              else if (rs.indexOf("?") != -1)
+                rs = rs + "&px=" + px[2];
+              else
+                rs = rs + "?px=" + px[2];
+            }
+            history.replaceState({}, "Bing", rs);
+            window.addEventListener("pageshow", function(e) { if (e.persisted || (typeof window.performance != "undefined" && window.performance.navigation.type === 2)) window.location.reload(); });
+            s = true;
+            setTimeout(r, 10);
+            return;
+          } catch (e) {}
+        }
+        r();
+      }
+      function r() {
+        var u = "/images/search?q=ancient+writing&id=6C66920EFFE92D477683D1D7CFCFBE4E51C90FF9&FORM=IQFRBA";
+        if (s)
+          window.location.href = u;
+        else
+          window.location.replace(u);
+      }
+      function f() {
+        document.getElementById("fb").style.display = "block";
+      }
+      //]]>
+    </script>
+  </head>
+  <body onload="l()">
+    <div id="fb" style="display: none">
+      Please <a href="https://www.bing.com/ck/a?!&&p=c7db893013ab4730JmltdHM9MTY3NzExMDQwMCZpZ3VpZD0xMGIwMDE1NS1jZTNjLTY2MWItMDgwYi0xMzM5Y2Y5NDY3ODcmaW5zaWQ9NTUzMQ&ptn=3&hsh=3&fclid=10b00155-ce3c-661b-080b-1339cf946787&u=a1L2ltYWdlcy9zZWFyY2g_cT1hbmNpZW50K3dyaXRpbmcmaWQ9NkM2NjkyMEVGRkU5MkQ0Nzc2ODNEMUQ3Q0ZDRkJFNEU1MUM5MEZGOSZGT1JNPUlRRlJCQQ&ntb=F">click here</a> if the page does not redirect automatically ...
+    </div>
+  </body>
+</html>

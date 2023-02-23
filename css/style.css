@@ -16,7 +16,7 @@ H5 {
 }
 
 
-H6 {
+H3 {
 
   Color: #E86D5D;
   padding-right: 40px;
@@ -33,7 +33,7 @@ text-align:
 }
 
 
-#Factsname {
+H6 {
 color: #EBCE63;
 text-align: center;
 font-size: 3rem;

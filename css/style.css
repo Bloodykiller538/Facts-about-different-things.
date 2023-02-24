@@ -30,7 +30,6 @@ color: #E86D5D;
 text-align: center;
 font-size: 1.58rem;
 font-family: 'Xanh Mono', monospace;
-
 }
 
 
@@ -38,4 +37,9 @@ font-family: 'Xanh Mono', monospace;
 ol.c {
   list-style-type: upper-roman;
   font-size: 1.58rem;
+}
+
+#image {
+height: 500px;
+width: 650px;
 }

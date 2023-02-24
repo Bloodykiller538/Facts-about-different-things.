@@ -1,10 +1,10 @@
-*{background-color: #51BAED;}
+*{background-color: #3D5A80;}
 
 
 
 
 H3 {
-  Color: #CD4CE0;
+  Color: #98C1D9;
   padding: 40px;
   text-align: center;
   font-weight: bolder;
@@ -14,22 +14,22 @@ H3 {
 
 
 H5 {
-  Color: #EBCE63;
+  Color: #E0FBFC;
   padding: 40px;
   font-family: 'Xanh Mono', monospace;
   text-align: center;
   font-size: 3rem;
 }
 a {
-padding-left: 350px;
+padding: 20px;
 text-decoration: none;
-color: #20E848;
+color: #EE6C4D;
 font-size: 2rem;
 }
 
 
 H6 {
-color: #E86D5D;
+color: #293241;
 text-align: center;
 font-size: 1.58rem;
 font-family: 'Xanh Mono', monospace;
@@ -42,7 +42,9 @@ ol.c {
   font-size: 1.58rem;
 }
 
-#image {
-height: 500px;
-width: 650px;
+
+nav {
+text-align: center;
+
+
 }

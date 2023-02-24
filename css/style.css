@@ -45,6 +45,11 @@ ol.c {
 
 nav {
 text-align: center;
+}
 
 
+#image{
+height: 450px;
+width: 600px;
+padding-left: 25%;
 }

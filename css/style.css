@@ -30,10 +30,12 @@ color: #E86D5D;
 text-align: center;
 font-size: 2rem;
 font-family: 'Xanh Mono', monospace;
+
 }
 
 
 
 ol.c {
   list-style-type: upper-roman;
+  font-size: 2rem;
 }

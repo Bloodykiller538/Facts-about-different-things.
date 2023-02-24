@@ -28,7 +28,7 @@ padding-left: 350px;
 H6 {
 color: #E86D5D;
 text-align: center;
-font-size: 2rem;
+font-size: 1.58rem;
 font-family: 'Xanh Mono', monospace;
 
 }
@@ -37,5 +37,5 @@ font-family: 'Xanh Mono', monospace;
 
 ol.c {
   list-style-type: upper-roman;
-  font-size: 2rem;
+  font-size: 1.58rem;
 }
